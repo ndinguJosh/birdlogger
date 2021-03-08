@@ -33,6 +33,10 @@ public class MainView extends Div {
             which use the Validator class to check data and print an error messages.
      */
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = 8681922828539246285L;
     // Initialise GUI components
     private TextField txtBirdName = new TextField("Name of bird");
     private Span spnBirdNames = new Span();
