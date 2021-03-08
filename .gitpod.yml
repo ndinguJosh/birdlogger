@@ -1,2 +1,2 @@
 tasks:
-  - init: npm install && mvn install -DskipTests=false
+  - init: npm install && mvn install -DskipTests=false && mvn compile && mvn spring-boot:run
